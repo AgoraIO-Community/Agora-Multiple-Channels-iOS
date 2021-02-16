@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8576F973270B34D23A5CEEA3 /* Pods_Multichannel_Streaming_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130E561F0FF160326885606F /* Pods_Multichannel_Streaming_iOS.framework */; };
+		F3BE815A25CD6B61002C8BE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BE815925CD6B61002C8BE4 /* AppDelegate.swift */; };
+		F3BE815C25CD6B61002C8BE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BE815B25CD6B61002C8BE4 /* SceneDelegate.swift */; };
+		F3BE815E25CD6B61002C8BE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BE815D25CD6B61002C8BE4 /* ViewController.swift */; };
+		F3BE816125CD6B61002C8BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BE815F25CD6B61002C8BE4 /* Main.storyboard */; };
+		F3BE816325CD6B64002C8BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BE816225CD6B64002C8BE4 /* Assets.xcassets */; };
+		F3BE816625CD6B64002C8BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BE816425CD6B64002C8BE4 /* LaunchScreen.storyboard */; };
+		F3BE817725D19152002C8BE4 /* ViewController+SecondChannelPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BE817625D19152002C8BE4 /* ViewController+SecondChannelPositioning.swift */; };
+		F3BE817A25D19192002C8BE4 /* ViewController+SecondChannelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BE817925D19192002C8BE4 /* ViewController+SecondChannelDelegate.swift */; };
+		F3BE817D25D2956B002C8BE4 /* ViewForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BE817C25D2956B002C8BE4 /* ViewForm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		130E561F0FF160326885606F /* Pods_Multichannel_Streaming_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multichannel_Streaming_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6968B53C9570EE83A1D68556 /* Pods-Multichannel-Streaming-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multichannel-Streaming-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Multichannel-Streaming-iOS/Pods-Multichannel-Streaming-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CE9366BDD03F3B23BDBEFDB9 /* Pods-Multichannel-Streaming-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multichannel-Streaming-iOS.release.xcconfig"; path = "Target Support Files/Pods-Multichannel-Streaming-iOS/Pods-Multichannel-Streaming-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F3BE815625CD6B61002C8BE4 /* Multichannel-Streaming-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multichannel-Streaming-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BE815925CD6B61002C8BE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3BE815B25CD6B61002C8BE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3BE815D25CD6B61002C8BE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3BE816025CD6B61002C8BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3BE816225CD6B64002C8BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3BE816525CD6B64002C8BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3BE816725CD6B64002C8BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BE817625D19152002C8BE4 /* ViewController+SecondChannelPositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SecondChannelPositioning.swift"; sourceTree = "<group>"; };
+		F3BE817925D19192002C8BE4 /* ViewController+SecondChannelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SecondChannelDelegate.swift"; sourceTree = "<group>"; };
+		F3BE817C25D2956B002C8BE4 /* ViewForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3BE815325CD6B61002C8BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8576F973270B34D23A5CEEA3 /* Pods_Multichannel_Streaming_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97EBD7BF2A872B65575D48E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130E561F0FF160326885606F /* Pods_Multichannel_Streaming_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3BE814D25CD6B61002C8BE4 = {
+			isa = PBXGroup;
+			children = (
+				F3BE815825CD6B61002C8BE4 /* Multichannel-Streaming-iOS */,
+				F3BE815725CD6B61002C8BE4 /* Products */,
+				FE46E8BDBD5860BDF27F6AE9 /* Pods */,
+				97EBD7BF2A872B65575D48E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3BE815725CD6B61002C8BE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE815625CD6B61002C8BE4 /* Multichannel-Streaming-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BE815825CD6B61002C8BE4 /* Multichannel-Streaming-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE815925CD6B61002C8BE4 /* AppDelegate.swift */,
+				F3BE815B25CD6B61002C8BE4 /* SceneDelegate.swift */,
+				F3BE815D25CD6B61002C8BE4 /* ViewController.swift */,
+				F3BE817625D19152002C8BE4 /* ViewController+SecondChannelPositioning.swift */,
+				F3BE817925D19192002C8BE4 /* ViewController+SecondChannelDelegate.swift */,
+				F3BE817C25D2956B002C8BE4 /* ViewForm.swift */,
+				F3BE815F25CD6B61002C8BE4 /* Main.storyboard */,
+				F3BE816225CD6B64002C8BE4 /* Assets.xcassets */,
+				F3BE816425CD6B64002C8BE4 /* LaunchScreen.storyboard */,
+				F3BE816725CD6B64002C8BE4 /* Info.plist */,
+			);
+			path = "Multichannel-Streaming-iOS";
+			sourceTree = "<group>";
+		};
+		FE46E8BDBD5860BDF27F6AE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6968B53C9570EE83A1D68556 /* Pods-Multichannel-Streaming-iOS.debug.xcconfig */,
+				CE9366BDD03F3B23BDBEFDB9 /* Pods-Multichannel-Streaming-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3BE815525CD6B61002C8BE4 /* Multichannel-Streaming-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BE816A25CD6B64002C8BE4 /* Build configuration list for PBXNativeTarget "Multichannel-Streaming-iOS" */;
+			buildPhases = (
+				F7784AB225BA1D23AD82D1B4 /* [CP] Check Pods Manifest.lock */,
+				F3BE815225CD6B61002C8BE4 /* Sources */,
+				F3BE815325CD6B61002C8BE4 /* Frameworks */,
+				F3BE815425CD6B61002C8BE4 /* Resources */,
+				D41EA969E7CA4B45FBCB19E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multichannel-Streaming-iOS";
+			productName = "Multichannel-Streaming-iOS";
+			productReference = F3BE815625CD6B61002C8BE4 /* Multichannel-Streaming-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3BE814E25CD6B61002C8BE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F3BE815525CD6B61002C8BE4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F3BE815125CD6B61002C8BE4 /* Build configuration list for PBXProject "Multichannel-Streaming-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3BE814D25CD6B61002C8BE4;
+			productRefGroup = F3BE815725CD6B61002C8BE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3BE815525CD6B61002C8BE4 /* Multichannel-Streaming-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3BE815425CD6B61002C8BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE816625CD6B64002C8BE4 /* LaunchScreen.storyboard in Resources */,
+				F3BE816325CD6B64002C8BE4 /* Assets.xcassets in Resources */,
+				F3BE816125CD6B61002C8BE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D41EA969E7CA4B45FBCB19E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multichannel-Streaming-iOS/Pods-Multichannel-Streaming-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multichannel-Streaming-iOS/Pods-Multichannel-Streaming-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Multichannel-Streaming-iOS/Pods-Multichannel-Streaming-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7784AB225BA1D23AD82D1B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multichannel-Streaming-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3BE815225CD6B61002C8BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE815E25CD6B61002C8BE4 /* ViewController.swift in Sources */,
+				F3BE815A25CD6B61002C8BE4 /* AppDelegate.swift in Sources */,
+				F3BE817A25D19192002C8BE4 /* ViewController+SecondChannelDelegate.swift in Sources */,
+				F3BE817725D19152002C8BE4 /* ViewController+SecondChannelPositioning.swift in Sources */,
+				F3BE817D25D2956B002C8BE4 /* ViewForm.swift in Sources */,
+				F3BE815C25CD6B61002C8BE4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3BE815F25CD6B61002C8BE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BE816025CD6B61002C8BE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3BE816425CD6B64002C8BE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BE816525CD6B64002C8BE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3BE816825CD6B64002C8BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3BE816925CD6B64002C8BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3BE816B25CD6B64002C8BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6968B53C9570EE83A1D68556 /* Pods-Multichannel-Streaming-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278494H572;
+				INFOPLIST_FILE = "Multichannel-Streaming-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.rocketar.Multichannel-Streaming-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3BE816C25CD6B64002C8BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9366BDD03F3B23BDBEFDB9 /* Pods-Multichannel-Streaming-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278494H572;
+				INFOPLIST_FILE = "Multichannel-Streaming-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.rocketar.Multichannel-Streaming-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3BE815125CD6B61002C8BE4 /* Build configuration list for PBXProject "Multichannel-Streaming-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE816825CD6B64002C8BE4 /* Debug */,
+				F3BE816925CD6B64002C8BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BE816A25CD6B64002C8BE4 /* Build configuration list for PBXNativeTarget "Multichannel-Streaming-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE816B25CD6B64002C8BE4 /* Debug */,
+				F3BE816C25CD6B64002C8BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3BE814E25CD6B61002C8BE4 /* Project object */;
+}
