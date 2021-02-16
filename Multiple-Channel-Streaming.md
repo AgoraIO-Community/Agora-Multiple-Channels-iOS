@@ -19,7 +19,7 @@ Create an iOS project in Xcode, then install the CocoaPod AgoraUIKit_iOS. This p
 To see how to set up the video canvases yourself instead of with AgoraUIKit, check out the [Quickstart Guide for iOS](https://docs.agora.io/en/Video/start_call_ios?platform=iOS).
 
 To install the CocoaPod, your Podfile should look like this:
-```swift
+```ruby
 target 'My-Agora-Project' do
   pod 'AgoraUIKit_iOS', '1.3.2'
 end
@@ -490,7 +490,10 @@ extension ViewController {
 
 Now you have a working example that connects to two channels; both of which receive remote video streams, and one that your camera feed is also streaming into. You could repeat the receiving only channel connection as many times as you wish, to view many channel feeds at the same time.
 
-See the following link for a 
+See the following link for an advanced guide for connecting to multiple channels:
+
+[**Join Multiple Channels**
+*As of v3.0.0, the Agora RTC SDK enables users to join an unlimited number of channels and to receive the audio and…*docs.agora.io](https://docs.agora.io/en/Video/multiple_channel_apple?platform=iOS)
 
 ## Other Resources
 
